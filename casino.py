@@ -2,6 +2,9 @@ from decouple import config
 import random
 
 
+
+
+
 def casino():
     money = config("MY_MONEY", cast=int)
     while True:
