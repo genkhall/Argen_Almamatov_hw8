@@ -11,7 +11,6 @@ def casino():
         slot_of_win = random.randint(1, 31)
         choose_slot = int(input("Choose one number : "))
         put_money = int(input("сколько поставить : "))
-
         if choose_slot > 30:
             print("Недопустимое значение")
         if put_money > money:
